@@ -79,7 +79,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com/akalus/extension.git", :tag => "#0.0.1" }
+  s.source       = { :git => "https://github.com/akalus/extension.git", :tag => "v0.1" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -91,7 +91,6 @@ Pod::Spec.new do |s|
   #
 
   s.source_files  =  '*.swift'
-  # 'XLPhotoBrowser/**/*.{h,m}’
   s.exclude_files = "Classes/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
